@@ -1,0 +1,16 @@
+{
+    "name": "Island",
+    "rootNamespace": "",
+    "references": [
+        "GUID:ed8b72867eff70f48b26286518994576"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
