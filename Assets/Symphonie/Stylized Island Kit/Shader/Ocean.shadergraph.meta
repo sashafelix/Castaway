@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 12614433d4f99ec4b8f62118fd0688d1
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 625f186215c104763be7675aa2d941aa, type: 3}
+AssetOrigin:
+  serializedVersion: 1
+  productId: 303905
+  packageName: Stylized Island Kit
+  packageVersion: 1.3
+  assetPath: Assets/Symphonie/Stylized Island Kit/Shader/Ocean.shadergraph
+  uploadId: 877312

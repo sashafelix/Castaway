@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 7b640c60640b5ea40b0bbeac9bb9e710
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 60072b568d64c40a485e0fc55012dc9f, type: 3}
+AssetOrigin:
+  serializedVersion: 1
+  productId: 303905
+  packageName: Stylized Island Kit
+  packageVersion: 1.3
+  assetPath: Assets/Symphonie/Stylized Island Kit/Shader/RefractedDepthFromSurface.shadersubgraph
+  uploadId: 877312

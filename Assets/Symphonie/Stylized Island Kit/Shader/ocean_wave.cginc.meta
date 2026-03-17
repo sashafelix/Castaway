@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: ef535c5b6ad88414ebd6bb19e732a149
+ShaderIncludeImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 303905
+  packageName: Stylized Island Kit
+  packageVersion: 1.3
+  assetPath: Assets/Symphonie/Stylized Island Kit/Shader/ocean_wave.cginc
+  uploadId: 877312
