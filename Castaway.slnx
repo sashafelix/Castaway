@@ -1,8 +1,8 @@
 ﻿<Solution>
   <Project Path="Core.csproj" />
   <Project Path="Island.csproj" />
+  <Project Path="IslandTests.csproj" />
   <Project Path="Resources.csproj" />
   <Project Path="Player.csproj" />
-  <Project Path="IslandTests.csproj" />
   <Project Path="Tests.csproj" />
 </Solution>

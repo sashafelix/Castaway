@@ -5,7 +5,8 @@
         "UnityEngine.TestRunner",
         "UnityEditor.TestRunner",
         "Core",
-        "Island"
+        "Island",
+        "Resources"
     ],
     "includePlatforms": [
         "Editor"
