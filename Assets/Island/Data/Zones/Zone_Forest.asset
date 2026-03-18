@@ -18,4 +18,7 @@ MonoBehaviour:
   minSpacingPercent: 0.03
   maxZoneCount: 3
   spawnableResources: []
-  zonePrefabs: []
+  zonePrefabs:
+  - {fileID: 4511668860912491528, guid: 51483b6b6a6fda4449d0d8eb3a3cc668, type: 3}
+  - {fileID: 848743051794734949, guid: cae5a9fb73003f7469fc26e7af1144b5, type: 3}
+  - {fileID: 8082689388017433024, guid: bd00ad35c541eaa44874dde41f3bea90, type: 3}

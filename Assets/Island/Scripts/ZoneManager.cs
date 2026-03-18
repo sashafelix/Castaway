@@ -28,14 +28,19 @@ public class ZoneManager : MonoBehaviour
     {
         foreach (var zone in zones)
         {
-            if (zone.ZoneDefinition.ZonePrefabs != null && zone.ZoneDefinition.ZonePrefabs.Count > 0)
+            if (zone.ResourcePositions != null && zone.ResourcePositions.Count > 0)
+                foreach (var pos in zone.ResourcePositions)
+                {
+
+                    {
+                        GameObject prefab = zone.ZoneDefinition.ZonePrefabs[UnityEngine.Random.Range(0, zone.ZoneDefinition.ZonePrefabs.Count)];
+                        Instantiate(prefab, pos, Quaternion.identity);
+                    }
+                }
+            else
             {
-                GameObject prefab = zone.ZoneDefinition.ZonePrefabs[UnityEngine.Random.Range(0, zone.ZoneDefinition.ZonePrefabs.Count)];
-                Instantiate(prefab, zone.Position, Quaternion.identity);
-            } else
-            {
-                Debug.LogWarning($"Zone {zone.ZoneDefinition.ZoneType} has no prefabs assigned!");                
-            }            
+                Debug.LogWarning($"Resource Position {zone.ResourcePositions} is empty!");
+            }
         }
     }
 }
